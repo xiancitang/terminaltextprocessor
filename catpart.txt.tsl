@@ -1,0 +1,568 @@
+
+Test Case 1  		<single>
+   inputfile_content :  empty
+
+
+Test Case 2  		<error>
+   inputfile_content :  nonewlineterminated
+
+
+Test Case 3  		<single>
+   inputfile_content :  linenumber_in_padding
+
+
+Test Case 4  		<single>
+   inputfile_content :  linenumber_exceed_padding
+
+
+Test Case 5  		<error>
+   file :  no_filename
+
+
+Test Case 6  		<single>
+   output_filename :  -o
+
+
+Test Case 7  		<single>
+   repeat option :  option_repeat
+
+
+Test Case 8  		<single>
+   option order :  option_order_process1
+
+
+Test Case 9  		<single>
+   option order :  option_order_process2
+
+
+Test Case 10 		<single>
+   option order :  option_order_process3
+
+
+Test Case 11 		<single>
+   option order :  option_order_process4
+
+
+Test Case 12 		<single>
+   option_parameter :  no_parameter
+
+
+Test Case 13 		<single>
+   option_parameter :  no_parameter
+
+
+Test Case 14 		<single>
+   option_parameter :  no_parameter
+
+
+Test Case 15 		<single>
+   option_parameter :  no_parameter
+
+
+Test Case 16 		<single>
+   option_parameter :  no_parameter
+
+
+Test Case 17 		<single>
+   option_parameter :  empty_string
+
+
+Test Case 18 		<single>
+   option_parameter :  empty_string
+
+
+Test Case 19 		<single>
+   option_parameter :  empty_string
+
+
+Test Case 20 		<single>
+   option_parameter :  invalid_parameter
+
+
+Test Case 21 		<error>
+   outputfile_existence :  exist
+
+
+Test Case 22 		<single>
+   outputfile_existence :  noexist
+
+
+Test Case 23 		(Key = 2.1.2.1.2.1.1.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  -i
+   suffix               :  -s
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 24 		(Key = 2.1.2.1.2.1.1.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  -i
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 25 		(Key = 2.1.2.1.2.1.1.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  -i
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 26 		(Key = 2.1.2.1.2.1.2.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  -i
+   suffix               :  no-s-option
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 27 		(Key = 2.1.2.1.2.1.2.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  -i
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 28 		(Key = 2.1.2.1.2.1.2.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  -i
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 29 		(Key = 2.1.2.1.2.2.1.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 30 		(Key = 2.1.2.1.2.2.1.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 31 		(Key = 2.1.2.1.2.2.1.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 32 		(Key = 2.1.2.1.2.2.2.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 33 		(Key = 2.1.2.1.2.2.2.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 34 		(Key = 2.1.2.1.2.2.2.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  -k
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 35 		(Key = 2.1.2.2.1.1.1.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  -i
+   suffix               :  -s
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 36 		(Key = 2.1.2.2.1.1.1.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  -i
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 37 		(Key = 2.1.2.2.1.1.1.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  -i
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 38 		(Key = 2.1.2.2.1.1.2.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  -i
+   suffix               :  no-s-option
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 39 		(Key = 2.1.2.2.1.1.2.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  -i
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 40 		(Key = 2.1.2.2.1.1.2.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  -i
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 41 		(Key = 2.1.2.2.1.2.1.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 42 		(Key = 2.1.2.2.1.2.1.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 43 		(Key = 2.1.2.2.1.2.1.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 44 		(Key = 2.1.2.2.1.2.2.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 45 		(Key = 2.1.2.2.1.2.2.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 46 		(Key = 2.1.2.2.1.2.2.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  -r
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 47 		(Key = 2.1.2.2.2.2.1.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 48 		(Key = 2.1.2.2.2.2.1.2.1.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 49 		(Key = 2.1.2.2.2.2.1.2.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  -s
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 50 		(Key = 2.1.2.2.2.2.2.1.2.2.0.9.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  -n
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  valid_parameter
+   outputfile_existence :  <n/a>
+
+
+Test Case 51 		(Key = 2.1.2.2.2.2.2.2.1.2.0.0.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  -w
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  <n/a>
+   outputfile_existence :  <n/a>
+
+
+Test Case 52 		(Key = 2.1.2.2.2.2.2.2.2.2.0.0.0.)
+   inputfile_content    :  newlineterminated
+   file                 :  filename_at_end
+   output_filename      :  no-o-option
+   substring            :  no-k-option
+   replace              :  no-r-option
+   case_insensitive     :  no-i-option
+   suffix               :  no-s-option
+   padding              :  no-n-option
+   whitespace           :  no-w-option
+   repeat option        :  no_repeat
+   option order         :  <n/a>
+   option_parameter     :  <n/a>
+   outputfile_existence :  <n/a>
+

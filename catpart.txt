@@ -1,0 +1,68 @@
+
+# Input file
+  inputfile_content:
+      empty.                      [single][property empty]
+      newlineterminated.          [if !empty][property valid_content]
+      nonewlineterminated.        [error][if !empty]
+      linenumber_in_padding.           [single][if valid_content]
+      linenumber_exceed_padding.        [single][if valid_content]
+
+
+# Options
+
+  file:
+    filename_at_end.               [property filename]
+    no_filename.                   [error]
+
+  output_filename:
+    -o.                        [single][property ovalue]
+    no-o-option.
+
+  substring:
+    -k.                         [property kvalue]
+    no-k-option.
+
+  replace:
+    -r.                         [if !kvalue][property rvalue]
+    no-r-option.
+
+  case_insensitive:
+    -i.                        [if kvalue || rvalue][property ivalue]
+    no-i-option.
+  suffix:
+    -s.                         [property svalue]
+    no-s-option.
+  padding:
+    -n.                         [property nvalue]
+    no-n-option.
+  whitespace:
+    -w.                         [if !nvalue][property wvalue]
+    no-w-option.
+  repeat option:
+    option_repeat.              [single]
+    no_repeat.
+
+  option order:
+    option_order_process1.             [single][if nvalue  && ovalue  && svalue  &&  rvalue ]
+    option_order_process2.             [single][if wvalue  && ovalue  && svalue  &&  kvalue  ]
+    option_order_process3.             [single][if nvalue  && ovalue  && svalue  &&  kvalue  ]
+    option_order_process4.             [single][if wvalue  && ovalue  && svalue  &&  rvalue ]
+
+# Option value
+  option_parameter:
+    no_parameter.                      [single][if ovalue ]
+    no_parameter.                      [single][if kvalue ]
+    no_parameter.                      [single][if rvalue]
+    no_parameter.                      [single][if svalue ]
+    no_parameter.                      [single][if nvalue ]
+    empty_string.                      [single][if kvalue]
+    empty_string.                      [single][if rvalue]
+    empty_string.                      [single][if svalue]
+    valid_parameter.                 [if ovalue  || svalue || nvalue ||  kvalue || rvalue ]
+    invalid_parameter.               [single][if nvalue ]
+
+# Output file
+  outputfile_existence:
+    exist.                  [error][if ovalue]
+    noexist.                [single][if ovalue]
+
